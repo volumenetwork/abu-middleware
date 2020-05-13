@@ -1,5 +1,5 @@
 {
-  "name": "abu-redux",
+  "name": "abu-redux-middleware",
   "version": "0.1.0",
   "description": "Redux middleware for azure-block-upload",
   "main": "lib/index.js",
