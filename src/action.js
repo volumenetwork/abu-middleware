@@ -11,7 +11,7 @@ export const Type = '@@AZURE_BLOCK_UPLOAD';
  */
 const azureBlockUploadAction = (sasurl, file, callbacks = {}) => ({
   type: Type,
-  payload: { endpoint: sasurl, file, callbacks },
+  payload: { sasurl, file, callbacks },
 });
 
 export default azureBlockUploadAction;
